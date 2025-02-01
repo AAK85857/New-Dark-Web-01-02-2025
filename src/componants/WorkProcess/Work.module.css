@@ -1,0 +1,130 @@
+main {
+  width: 80vw;
+  height: 43.4vh;
+}
+.inner {
+  width: 80vw;
+  height: 419px;
+  display: flex;
+  margin: 80px 150px;
+}
+
+.head {
+  width: 29.58vw;
+  height: 131px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head h6 {
+  color: #e6e6e6;
+  opacity: 0.5;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.head h1 {
+  color: #194bfd;
+  font-size: 72px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.head span {
+  color: #e6e6e6;
+  font-weight: bold;
+  font-size: 32px;
+}
+.head p {
+  color: #e6e6e6;
+  opacity: 0.5;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+.workBody {
+  margin-top: 824px;
+  width: 79.16vw;
+  height: 431px;
+  display: grid;
+  flex-wrap: wrap;
+  margin: 0 8.41vw;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.1vh;
+  padding-top: 4.8vw;
+}
+.bodyInner {
+  width: 184px;
+  height: 184px;
+  margin-top: 1.3vh;
+  border: 2px dashed #c0c0c0;
+  /* background-color: lightblue; */
+  transform: rotate(45deg);
+  transform-origin: center;
+  border-radius: 18px;
+  flex-wrap: wrap;
+  /* opacity: .7; */
+  background-color: #0e0e10;
+  display: grid;
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: 10.41vw 10.41vh;
+  gap: 40px;
+  align-items: center;
+}
+.bodyInner:nth-child(odd) {
+  grid-row: 1;
+
+}
+.bodyInner:nth-child(even) {
+  grid-row: 2;
+  margin-left: 10.76vw;
+
+}
+
+.inn {
+  background-color: #0e0e10;
+  width: 144px;
+  height: 144px;
+  margin: 20px;
+  border: 2px dashed #c0c0c0;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e6e6e6;
+  box-sizing: border-box;
+  margin-top: 57px;
+  box-shadow: 7px 9px 17px 20.4px #0e0e10;
+}
+.inn span {
+  transform: rotate(-45deg);
+  color: #e6e6e6;
+  font-size: 18px;
+  background-color: #0e0e10;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .workBody{
+    margin: 10px 4.8vw;
+    width: 60.16vw;
+  height: 401px;
+  }
+  .bodyInner {
+    width: 184px;
+    height: 184px;
+    margin-top: 1.3vh;
+    margin-left: -12vw;
+    margin-top: 4.3vh;
+    padding-top: 20px;
+
+  }
+  .bodyInner:nth-child(odd) {
+    grid-row: 1;
+  
+  }
+  .bodyInner:nth-child(even) {
+    grid-row: 2;
+    margin-left: 9.76vw;
+  
+  }
+}

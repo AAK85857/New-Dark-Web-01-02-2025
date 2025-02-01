@@ -1,0 +1,129 @@
+.Other {
+  width: 79.16vw;
+  height: 793px;
+  /* background-color: gold; */
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.head1 {
+  width: 35.4vw;
+  height: 131px;
+  margin: 200px 22.5vw;
+  display: grid;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.head1 h6 {
+  color: #e6e6e6;
+  opacity: 0.5;
+  font-size: 14px;
+  text-transform: uppercase;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head1 h1 {
+  color: #194bfd;
+  font-size: 72px;
+  font-size: larger;
+  font-weight: bolder;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head1 span {
+  color: #e6e6e6;
+  font-weight: bold;
+  font-size: 32px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head1 p {
+  color: #e6e6e6;
+  opacity: 0.5;
+  word-wrap: break-word;
+  font-weight: bold;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.lines {
+  width: 79.16vw;
+  height: 598px;
+  line-height: 40px;
+  margin-top: -150px;
+}
+.line1 {
+  width: 79.16vw;
+  height: 279px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.line2 {
+  width: 79.16vw;
+  height: 279px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box1 {
+  width: 25.62vw;
+  height: 279px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+}
+.boxIn {
+  width: 25.62vw;
+  height: 227px;
+  background: linear-gradient(#0e0e10 #17171a);
+  background-image: url("./src/assets/images/ser-bg.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  display: grid;
+  line-height: 20px;
+  background-color: #24242a;
+
+  margin-top: 42px;
+}
+.boxIn img {
+  width: 106px;
+  height: 106px;
+  background-color: #24242a;
+  margin-left: 9vw;
+  margin-top: -48px;
+  border-radius: 140px;
+  margin-left: 118px;
+}
+.boxIn h2 {
+  color: #e6e6e6;
+  font-size: 18px;
+  background-color: #24242a;
+  font-weight: bold;
+}
+.boxIn p {
+  color: #e6e6e6;
+  background-color: #24242a;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.boxIn button {
+  width: 12.22vw;
+  height: 38px;
+  border-radius: 29px;
+  border: transparent;
+  background-color: #2e2e32;
+  color: white;
+  margin-left: 6.2vw;
+}
+

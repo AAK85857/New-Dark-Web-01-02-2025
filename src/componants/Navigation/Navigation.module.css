@@ -1,0 +1,294 @@
+nav {
+  width: 100.13vw;
+  height: 80px;
+  background-color: #171719;
+  filter: brightness(54%);
+  column-gap: 8px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  /* margin: 0 12.3vw; */
+}
+bar1 {
+  width: 100.13vw;
+  height: 40px;
+  background-color: #171719;
+}
+.inner {
+  width: 79.1vw;
+  height: 28px;
+  margin: 0 100px;
+}
+.icon {
+  width: 10.69vw;
+  height: 28px;
+}
+.icon ul {
+  display: flex;
+  gap: 12px;
+  margin-top: 3px;
+}
+.icon ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.icon ul li a img {
+  width: 28px;
+  height: 28px;
+  border-radius: 30px;
+}
+.navcontact {
+  display: flex;
+  gap: 32px;
+  width: 49.8vw;
+  margin: 0;
+  padding: 0;
+  margin-top: -20px;
+  margin-left: 40.3vw;
+}
+.smallimg {
+  width: 20px;
+  height: 20px;
+}
+.call {
+  display: flex;
+  gap: 10px;
+}
+.call p {
+  color: #e6e6e6;
+}
+.send {
+  display: flex;
+  gap: 10px;
+}
+.send p {
+  color: #e6e6e6;
+}
+.location {
+  display: flex;
+  gap: 10px;
+  width: 19.69vw;
+}
+.location p {
+  color: #e6e6e6;
+  flex-wrap: nowrap;
+}
+
+bar2 {
+  width: 100.13vw;
+  height: 68px;
+  display: flex;
+  background-color: #171719;
+}
+.nav2 {
+  height: 40px;
+}
+.home {
+  width: 33.5vw;
+  height: 19px;
+  margin-left: 12.8vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.home ul {
+  display: flex;
+  gap: 2.9vw;
+  list-style: none;
+  text-decoration: none;
+}
+.home ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.home ul li a {
+  gap: 2.9vw;
+  list-style: none;
+  text-decoration: none;
+  color: #e6e6e6;
+}
+.btn {
+  width: 12.38vw;
+  height: 38px;
+  margin-left: 3.8vw;
+  margin-top: -3px;
+}
+.btn button {
+  /* width: 11.38vw;
+  height: 40px; */
+  border-radius: 29px;
+  background: linear-gradient(#194bfd, #ad13fb);
+  position: absolute;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.97vw;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button:active,
+button:hover {
+  background: linear-gradient(#1e43c7, #9906e2);
+  color: rgb(86, 238, 15);
+}
+.navbody {
+  width: 79.16vw;
+  height: 60.3vh;
+  margin-top: 176px;
+  display: flex;
+}
+.text {
+  width: 37.5vw;
+  height: 27.2vh;
+  margin-left: 84px;
+  margin-top: 75px;
+  position: inherit;
+}
+.text1 {
+  width: 37.5vw;
+  height: 20.4vh;
+  /* position: inherit; */
+}
+.text1 h1 {
+  font-size: 58px;
+  font-weight: normal;
+  color: white;
+  text-align: start;
+  font-family: Space Growtesk;
+}
+.text1 span {
+  color: #194bfd;
+  font-weight: bold;
+  text-align: start;
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.text1 p {
+  color: #e6e6e6;
+  word-wrap: break-word;
+}
+.text2 {
+  display: flex;
+  gap: 195px;
+  margin-top: 30.59vh;
+}
+.bodyBtn button {
+  width: 11.38vw;
+  height: 40px;
+  border-radius: 29px;
+  background: linear-gradient(#194bfd, #ad13fb);
+  position: absolute;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.97vw;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button:active,
+button:hover {
+  background: linear-gradient(#1e43c7, #e0d4ec);
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+.BodyViewBtn {
+  width: 11.25vw;
+  height: 42px;
+}
+.boy {
+  width: 31.45vw;
+  height: 34.2vh;
+}
+.skill {
+  width: 9.3vw;
+  height: 9.3vh;
+  margin-top: -230px;
+  margin-left: 20.4vw;
+}
+.skill a img {
+  background: none;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+    margin-left: -10.2vw;
+    z-index: 0;
+    overflow-x: hidden;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100.13vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+  }
+  .navcontact {
+    margin-left: 240px;
+    width: 60.8vw;
+    gap: 15px;
+  }
+  .location{
+    width: 30px;
+    width: 21.69vw;
+
+  }
+  .logo{
+    margin-left: -30px;
+  }
+  .home{
+    margin-left: 13.8vw;
+  }
+  .btn{
+    margin-left: 7.8vw;
+
+  }
+  .inner {
+    margin: 0 50px;
+  }
+  .navbody {
+    margin: 0 50px;
+  }
+  .text {
+    position: relative;
+    margin-top: 300px;
+  }
+  .text1 h1{
+    font-size: 6.1vw;
+    margin-top: 30px;
+  }
+  .text2 {
+    margin-top: 15.36vh;
+  }
+  .boy img{
+    width: 50.45vw;
+    height: 70.2vh;
+    object-fit: contain;
+    margin-top: 70px;
+  }
+  .skill a img{
+    object-fit: contain;
+    width: 15.3vw;
+    height: 15.3vh;
+    margin-left: 10.5vw;
+    margin-top: 5.7vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Styles for small devices */
+  
+}

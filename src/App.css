@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #171719;
+}
+
+.head {
+  width: 35.4vw;
+  height: 131px;
+  margin: 100px 22.5vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+}
+.head h6 {
+  color: #e6e6e6;
+  opacity: 0.5;
+  font-size: 14px;
+  text-transform: uppercase;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head h1 {
+  color: #194bfd;
+  font-size: 72px;
+  font-size: larger;
+  font-weight: bolder;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head span {
+  color: #e6e6e6;
+  font-weight: bold;
+  font-size: 32px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head p {
+  color: #e6e6e6;
+  opacity: 0.5;
+  word-wrap: break-word;
+  font-weight: bold;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ 
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+      font-size: 14px;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100.13vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    margin: 0 10.2vw;
+    margin-left: 100px;
+
+  }
+  .inner{
+    margin:0 50px ;
+  }
+  .navbody{
+    margin: 0 50px;
+  }
+  
+  .text2{
+    margin-top: 300px;
+  }
+  .head{
+    margin: 100px 22.5vw;
+
+  } 
+} 
